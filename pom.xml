@@ -19,6 +19,12 @@
 
         <version>${project.parent.version}</version>
 
+	<properties>
+                <!-- Project Dependecies Version Overwrite -->
+                <greeting.api.version>${project.version}</greeting.api.version>
+                <greeting.impl.version>${project.version}</greeting.impl.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
