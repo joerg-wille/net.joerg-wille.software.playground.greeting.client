@@ -19,18 +19,13 @@
 
 	<properties>
                 <!-- Project Dependecies Version Overwrite -->
-                <greeting.api.version>${project.version}</greeting.api.version>
-                <greeting.impl.version>${project.version}</greeting.impl.version>
+                <!-- greeting.api.version>${project.version}</greeting.api.version -->
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>playground-greeting-api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>playground-greeting-impl</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.osgi</groupId>
